@@ -1,0 +1,82 @@
+:host {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .top-bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  mat-card {
+    width: 250px;
+  }
+  
+  mat-card::ng-deep.mat-card-header-text {
+    width: 100%;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  
+    > div {
+      flex: 50%;
+      border-radius: 10px;
+    }
+  
+    > .outlook {
+      padding: 10px;
+      color: black;
+      background: rgba(0, 0, 0, 0.1);
+    }
+  
+    > .temp {
+      background: lightblue;
+      padding: 10px;
+      color: black;
+      margin-right: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .big-text {
+      font-size: 30px;
+    }
+  
+    .caption {
+      text-transform: uppercase;
+      font-size: 15px;
+    }
+  
+    .image {
+      height: 80px;
+    }
+  }
+  mat-card
+  {
+    background-color: white;
+    box-shadow: 10px slategrey;
+    width: 430px;
+    margin-left: -100px;
+  }
+  mat-card-subtitle,mat-card-title
+  {
+    color: black;
+    text-align: center;
+    /* /* margin-left: 100px; */
+    padding: 20px; 
+  }
+  mat-button
+  {
+    color: black;
+    background-color: red;
+  }
+  .aln1
+  {
+    text-align: center;
+  }
